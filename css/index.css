@@ -1,0 +1,172 @@
+/*清除样式*/
+*{margin: 0;padding: 0;list-style: none;box-sizing: border-box;}
+a{text-decoration: none;}
+
+body{
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+/*nav start*/
+.container{
+	width: 85%!important;margin: 0 auto;
+}
+nav{background: rgb(4,25,37);position: fixed;z-index: 999;}
+/*.nav-wrapper{
+	padding: 0 20px;
+}*/
+nav .brand-logo{
+	padding-top:8px;display:block;
+}
+nav .description{
+	padding-left: 60px;
+}
+nav .description .cutline{
+	font-size: 1.5rem;color:#32b0ee ;
+	padding:0 10px;
+}
+nav .description .description-word{
+	color: #676d72;
+}
+nav .brand-logo img{width: 50px;}
+nav ul li{background-color: transparent;}
+nav ul li.active{
+	border-bottom: 2px solid #32b0ee;
+	background-color: transparent;
+}
+/*nav end*/
+
+/*banner start*/
+
+/*banner end*/
+
+/*products start*/
+#product{
+	padding: 30px 0;
+	background: #f4f7f9;
+}
+.big-title{padding-bottom: 20px!important;}
+.title-C{
+	color:#0eb493;
+}
+.title-E{
+	color: #000;
+	font-size: 1.4rem;
+	padding-bottom: 1rem;
+}
+.title-p{
+	line-height: 20px;
+}
+.title-p .line{
+	width: 90px;
+	height: 2px;
+	background: #dce1e5;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+.title-p .heart{
+	display: inline-block;
+	background: url(../img/heart.png) no-repeat;
+	width: 18px;height: 14px;margin: 0 10px;
+}
+.right-title{
+	font-size: 1.2rem;
+}
+.icon{
+	width: 60px;height: 150px;
+	padding:8px 8px 0 0;
+}
+.icon1{
+	background: url(../img/icon_phone.png) no-repeat;
+}
+.icon2{
+	background: url(../img/icon_chat.png) no-repeat ;
+}
+.icon3{background: url(../img/icon_phone.png) no-repeat;}
+.words{max-width: 80%;}
+.words-c,.words-e{
+	font-size: 1rem;color: #717982;
+	padding: 10px 0;
+}
+/*products end*/
+
+/*case start*/
+#case,#team,#contact{padding: 30px 0;}
+.pics{display: none;}
+.pics.active{display: block;}
+.des-words{text-align: center;max-width: 60%;margin: 0 auto;padding: 20px 0 0 0;color: #717982;}
+.choose{width: 60%;margin-left:33%;height: 2rem;}
+.choose li{float: left;margin-right: 2rem;width: 6rem;height: 2rem;line-height: 2rem;}
+.choose li a{display: block;color: #000000;font-size: 1rem;font-weight: bold;text-align: center;}
+.choose li.active a{background: #0eb493;color: #fff;border-radius: 5px;}
+.choose li:hover a{background: #0eb493;color: #fff;border-radius: 5px;}
+.pics-one,.pics-four{background: #2a283e;padding: 2rem!important;}
+.pics-one div,.pics-four div{
+	overflow: hidden;
+	text-align: center;
+}
+.pics-one .one,.pics-one .two,.pics-one .three,.pics-one .four,
+.pics-four .one,.pics-four .two,.pics-four .three,.pics-four .four
+{padding-bottom: 1.6rem!important;}
+.pics-one div img,
+.pics-four div img
+{
+	height: 15rem;
+	width: 100%;
+}
+.pics-two div,.pics-three div,.pics-five div{overflow: hidden;padding: 0!important;height: 16.6rem;}
+.pics-two div,.pics-three div,.pics-five div{max-width: 100%;}
+.pics-three div{position: relative!important;transition: all 1s ease-in-out;}
+.pics-three>img{
+	display: block;position: absolute;top: 0;left: 0;
+}
+.pics-three div:hover .zhezhao{display: block;}
+.pics-three .zhezhao{z-index:990;background: #22b698;color: #fff;width: 100%;height: 100%;position: absolute;top: 0;left: 0;display: none;}
+.pics-three .zhezhao{text-align: center;}
+.zhezhao .eye{padding-top: 4rem;}
+.zhezhao .eye span{
+	display: inline-block;width: 50px;height: 50px;
+	background: url(../img/eye.png) no-repeat scroll center center;
+}
+.zhezhao .hover-words{
+	font-size: 1.2rem;font-weight: bold;
+}
+/*case end*/
+
+/*team start*/
+.duiyuan{position: relative;text-align: center;height: 21rem;overflow: hidden;}
+.duiyuan img{max-width: 80%;position: absolute;top: 0;left: 0;}
+.duiyuan .hover-box{position: absolute;top: 0;left: 0; background: rgba(26,184,152,.8);width: 80%;height: 16.6rem;padding: 1rem;display: none;}
+.hover-box .social{list-style: none;padding-top: 2.6rem;}
+.hover-box .social li{float: left;width: 50px;height: 50px;margin-left: 0.6rem;background-color: rgba(0,0,0,.3);background-repeat: no-repeat;background-position: center;}
+.hover-box .social li.twitter{background-image: url(../img/twitter.png);}
+.hover-box .social li.facebook{background-image: url(../img/facebook.png);}
+.hover-box .social li.google{background-image: url(../img/google.png);}
+.duiyuan .name{position: absolute;top: 18rem;text-align: center;width: 80%;font-weight: 600;font-size: 1.1rem;color:#000}
+.duiyuan .name.active{color:#0eb493}
+.duiyuan .job{position: absolute;bottom: 0; text-align: center;width: 80%;font-weight: 400;font-size: 1rem;}
+
+/*team end*/
+
+/*service start*/
+#service{
+	background: url(../img/service_bg.jpg) no-repeat;padding: 30px 0;
+	height: 600px;
+	color: #fff;
+}
+#service .heart{background: url(../img/heart2.png) no-repeat;}
+.pic{border-radius: 50%;width: 6rem;height: 6rem;border: 2px solid #fff;}
+.xqfx{background: url(../img/xianweijing.png) no-repeat center;background-size:36px; width: 100%;height: 100%;padding: 2rem;}
+#service h4{text-align: center; font-size: 34px;font-weight: 400;}
+#service h5{font-size: 20px;}
+.dian{width: 100%;height: 86px;line-height: 86px;text-align: center;}
+.dian span{border-radius: 50%;display: inline-block;width: 6px;height: 6px;background: #fff;}
+.cpgh{background: url(../img/clock.png) no-repeat center;background-size:36px; width: 100%;height: 100%;padding: 2rem;}
+.yfsj{background: url(../img/light.png) no-repeat center;background-size:36px; width: 100%;height: 100%;padding: 2rem;}
+.jskf{background: url(../img/chilun.png) no-repeat center;background-size:36px; width: 100%;height: 100%;padding: 2rem;}
+.gncs{background: url(../img/rocket.png) no-repeat center;background-size:36px; width: 100%;height: 100%;padding: 2rem;}
+.sxjf{background: url(../img/right.png) no-repeat center;background-size:36px; width: 100%;height: 100%;padding: 2rem;}
+/*service end*/
+
+/*CONTACT start*/
+
+/*contact end*/
